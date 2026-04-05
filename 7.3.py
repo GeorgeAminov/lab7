@@ -1,0 +1,6 @@
+days = ("понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье")
+skoko_chill = int(input("Сколько выходных на недели вы хотите? "))
+chill = list(days[-skoko_chill:])
+work = list(days[:-skoko_chill])
+print(f"Ваши выходные дни: {chill}")
+print(f"Ваши рабочие дни: {work}")
